@@ -1,0 +1,3822 @@
+{
+  "metadata": {
+    "datasetType": "synthetic",
+    "schemaStyle": "kori-inspired",
+    "note": "Synthetic curriculum mirror for assignment prototyping; names, IDs, and counts are synthetic.",
+    "counts": {
+      "courses": 60,
+      "modules": 25,
+      "staff": 12
+    }
+  },
+  "courses": [
+    {
+      "id": "otm-48275ad0-319b-4075-adac-1ec078c85b5f",
+      "groupId": "otm-7dc1ed26-90ba-4018-b52d-f97b159deafc",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.101",
+      "lang": "en",
+      "name": {
+        "en": "Introduction to Software Engineering"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Introduction to Software Engineering covers software engineering, agile, requirements in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Introduction to Software Engineering can explain and apply software engineering, agile, requirements, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "software engineering",
+        "agile",
+        "requirements"
+      ],
+      "topicTags": [
+        "software engineering",
+        "agile",
+        "requirements"
+      ],
+      "moduleCodes": [
+        "MOD-SE-01"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentCountEstimate": 80,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9ed9a4b1-7d69-4127-9d31-95b2790e4e4a"
+      ]
+    },
+    {
+      "id": "otm-63f32cfd-fc5f-480b-9866-54a9b4902c92",
+      "groupId": "otm-dd324bcb-9f3e-4a02-8c10-ec7369ac566d",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.102",
+      "lang": "en",
+      "name": {
+        "en": "Requirements Engineering"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Requirements Engineering covers requirements engineering, stakeholder analysis, specification in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Requirements Engineering can explain and apply requirements engineering, stakeholder analysis, specification, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "requirements engineering",
+        "stakeholder analysis",
+        "specification"
+      ],
+      "topicTags": [
+        "requirements engineering",
+        "stakeholder analysis",
+        "specification"
+      ],
+      "moduleCodes": [
+        "MOD-SE-01"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentCountEstimate": 65,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9ed9a4b1-7d69-4127-9d31-95b2790e4e4a"
+      ]
+    },
+    {
+      "id": "otm-607ed13a-47b3-40f5-9e86-3e13b0d8ec45",
+      "groupId": "otm-1b14ecc9-4cc4-4b7a-8fa6-9b0d72b4eaa2",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.103",
+      "lang": "en",
+      "name": {
+        "en": "Software Development Processes"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Software Development Processes covers software lifecycle, process improvement, agile in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Software Development Processes can explain and apply software lifecycle, process improvement, agile, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "software lifecycle",
+        "process improvement",
+        "agile"
+      ],
+      "topicTags": [
+        "software lifecycle",
+        "process improvement",
+        "agile"
+      ],
+      "moduleCodes": [
+        "MOD-SE-01"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentCountEstimate": 70,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9ed9a4b1-7d69-4127-9d31-95b2790e4e4a"
+      ]
+    },
+    {
+      "id": "otm-8da88819-c570-4c1d-ac80-fd051ed59d7f",
+      "groupId": "otm-9cdf69f3-8978-4b49-b11c-d5487720d9ab",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.201",
+      "lang": "en",
+      "name": {
+        "en": "Software Testing"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Software Testing covers software testing, unit testing, integration testing in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Software Testing can explain and apply software testing, unit testing, integration testing, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "software testing",
+        "unit testing",
+        "integration testing"
+      ],
+      "topicTags": [
+        "software testing",
+        "unit testing",
+        "integration testing"
+      ],
+      "moduleCodes": [
+        "MOD-SE-02"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentCountEstimate": 75,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-56044514-4a54-448f-b9ca-dfc1dd9e1b37"
+      ]
+    },
+    {
+      "id": "otm-a7ab681c-25e2-4874-affc-98579d97ced6",
+      "groupId": "otm-001346b1-48fa-4c4e-b445-036503536344",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.202",
+      "lang": "en",
+      "name": {
+        "en": "Verification and Validation"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Verification and Validation covers verification, validation, quality assurance in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Verification and Validation can explain and apply verification, validation, quality assurance, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "verification",
+        "validation",
+        "quality assurance"
+      ],
+      "topicTags": [
+        "verification",
+        "validation",
+        "quality assurance"
+      ],
+      "moduleCodes": [
+        "MOD-SE-02",
+        "MOD-SE-03"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentCountEstimate": 55,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-56044514-4a54-448f-b9ca-dfc1dd9e1b37"
+      ]
+    },
+    {
+      "id": "otm-9ba22439-d917-446c-bccd-1a51d1d6b7db",
+      "groupId": "otm-edb63f10-8852-4059-adfa-19023347433f",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.203",
+      "lang": "en",
+      "name": {
+        "en": "Test Automation"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Test Automation covers test automation, CI/CD, quality engineering in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Test Automation can explain and apply test automation, CI/CD, quality engineering, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "test automation",
+        "CI/CD",
+        "quality engineering"
+      ],
+      "topicTags": [
+        "test automation",
+        "CI/CD",
+        "quality engineering"
+      ],
+      "moduleCodes": [
+        "MOD-SE-02"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentCountEstimate": 50,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-56044514-4a54-448f-b9ca-dfc1dd9e1b37"
+      ]
+    },
+    {
+      "id": "otm-f3b98b6a-9b93-453e-81ca-a79a356db91f",
+      "groupId": "otm-5e523d0d-c360-4a27-9054-a1c92f557b93",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.204",
+      "lang": "en",
+      "name": {
+        "en": "Dependable Software Systems"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Dependable Software Systems covers dependability, fault tolerance, resilience in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Dependable Software Systems can explain and apply dependability, fault tolerance, resilience, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "dependability",
+        "fault tolerance",
+        "resilience"
+      ],
+      "topicTags": [
+        "dependability",
+        "fault tolerance",
+        "resilience"
+      ],
+      "moduleCodes": [
+        "MOD-SE-03"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentCountEstimate": 45,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-56044514-4a54-448f-b9ca-dfc1dd9e1b37"
+      ]
+    },
+    {
+      "id": "otm-5642cfe7-68af-4dc5-859c-8821b337f3ca",
+      "groupId": "otm-05d3b0af-7d2a-4a68-9f5c-887bd045a0b4",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.205",
+      "lang": "en",
+      "name": {
+        "en": "Software Assurance"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Software Assurance covers software assurance, compliance, evidence-based quality in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Software Assurance can explain and apply software assurance, compliance, evidence-based quality, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "software assurance",
+        "compliance",
+        "evidence-based quality"
+      ],
+      "topicTags": [
+        "software assurance",
+        "compliance",
+        "evidence-based quality"
+      ],
+      "moduleCodes": [
+        "MOD-SE-03"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentCountEstimate": 40,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-56044514-4a54-448f-b9ca-dfc1dd9e1b37"
+      ]
+    },
+    {
+      "id": "otm-3190a9a4-c910-493b-ae01-345327d285d0",
+      "groupId": "otm-51e260b3-0ccf-40ac-b145-3a69616b8de3",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.301",
+      "lang": "en",
+      "name": {
+        "en": "Software Architecture"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Software Architecture covers software architecture, design decisions, platforms in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Software Architecture can explain and apply software architecture, design decisions, platforms, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "software architecture",
+        "design decisions",
+        "platforms"
+      ],
+      "topicTags": [
+        "software architecture",
+        "design decisions",
+        "platforms"
+      ],
+      "moduleCodes": [
+        "MOD-SE-04"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentCountEstimate": 60,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9ed9a4b1-7d69-4127-9d31-95b2790e4e4a"
+      ]
+    },
+    {
+      "id": "otm-7ff50e7b-5121-454f-b0e1-04eb08c1ea64",
+      "groupId": "otm-1f6ca2a7-9689-4cff-849c-a8904af2162e",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.302",
+      "lang": "en",
+      "name": {
+        "en": "Cloud Platforms and DevOps"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Cloud Platforms and DevOps covers cloud platforms, DevOps, automation in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Cloud Platforms and DevOps can explain and apply cloud platforms, DevOps, automation, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "cloud platforms",
+        "DevOps",
+        "automation"
+      ],
+      "topicTags": [
+        "cloud platforms",
+        "DevOps",
+        "automation"
+      ],
+      "moduleCodes": [
+        "MOD-SE-04"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentCountEstimate": 68,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9ed9a4b1-7d69-4127-9d31-95b2790e4e4a"
+      ]
+    },
+    {
+      "id": "otm-9de4568d-3bcd-497f-a070-20f93758e65e",
+      "groupId": "otm-8341a81b-a1b5-4731-b162-defdae5dc21d",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.303",
+      "lang": "en",
+      "name": {
+        "en": "API and Systems Integration"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "API and Systems Integration covers APIs, systems integration, interoperability in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing API and Systems Integration can explain and apply APIs, systems integration, interoperability, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "APIs",
+        "systems integration",
+        "interoperability"
+      ],
+      "topicTags": [
+        "APIs",
+        "systems integration",
+        "interoperability"
+      ],
+      "moduleCodes": [
+        "MOD-SE-04",
+        "MOD-SYS-01"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering",
+        "Software Engineering"
+      ],
+      "annualStudentCountEstimate": 52,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9ed9a4b1-7d69-4127-9d31-95b2790e4e4a",
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    },
+    {
+      "id": "otm-f08b526b-3c1f-4ca7-8423-54a1bbee0587",
+      "groupId": "otm-157949fb-6475-4d85-8c70-5fbaed67b17e",
+      "documentState": "ACTIVE",
+      "code": "COMP.SE.304",
+      "lang": "en",
+      "name": {
+        "en": "Secure and Governable AI Systems"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Secure and Governable AI Systems covers AI security, governance, auditability in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Secure and Governable AI Systems can explain and apply AI security, governance, auditability, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "AI security",
+        "governance",
+        "auditability"
+      ],
+      "topicTags": [
+        "AI security",
+        "governance",
+        "auditability"
+      ],
+      "moduleCodes": [
+        "MOD-SEC-01"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentCountEstimate": 35,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-e3c4146b-6838-4f59-ac79-82bbde144665"
+      ]
+    },
+    {
+      "id": "otm-1cc3e87b-b08e-437e-8147-619b555a8eb3",
+      "groupId": "otm-230a0bc6-284c-4d3f-a8c0-935e1100d765",
+      "documentState": "ACTIVE",
+      "code": "COMP.EMB.101",
+      "lang": "en",
+      "name": {
+        "en": "Embedded Systems Fundamentals"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Embedded Systems Fundamentals covers embedded systems, microcontrollers, firmware in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Embedded Systems Fundamentals can explain and apply embedded systems, microcontrollers, firmware, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "embedded systems",
+        "microcontrollers",
+        "firmware"
+      ],
+      "topicTags": [
+        "embedded systems",
+        "microcontrollers",
+        "firmware"
+      ],
+      "moduleCodes": [
+        "MOD-EMB-01"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentCountEstimate": 72,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9272445f-beb8-4a65-9eec-cf6b398983c6"
+      ]
+    },
+    {
+      "id": "otm-4a769275-45e4-4e29-bddc-eb276eb45c30",
+      "groupId": "otm-e140504c-b707-440f-beae-bc30ec59327b",
+      "documentState": "ACTIVE",
+      "code": "COMP.EMB.102",
+      "lang": "en",
+      "name": {
+        "en": "Embedded C Programming"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Embedded C Programming covers embedded C, low-level programming, hardware interaction in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Embedded C Programming can explain and apply embedded C, low-level programming, hardware interaction, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "embedded C",
+        "low-level programming",
+        "hardware interaction"
+      ],
+      "topicTags": [
+        "embedded C",
+        "low-level programming",
+        "hardware interaction"
+      ],
+      "moduleCodes": [
+        "MOD-EMB-01"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentCountEstimate": 66,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9272445f-beb8-4a65-9eec-cf6b398983c6"
+      ]
+    },
+    {
+      "id": "otm-63820e70-d6cb-4ed5-b59a-6451565f4265",
+      "groupId": "otm-caa6f8b7-148d-4725-89b8-080119bcd75c",
+      "documentState": "ACTIVE",
+      "code": "COMP.EMB.103",
+      "lang": "en",
+      "name": {
+        "en": "Hardware-Software Co-Design"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Hardware-Software Co-Design covers co-design, integration, embedded architecture in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Hardware-Software Co-Design can explain and apply co-design, integration, embedded architecture, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "co-design",
+        "integration",
+        "embedded architecture"
+      ],
+      "topicTags": [
+        "co-design",
+        "integration",
+        "embedded architecture"
+      ],
+      "moduleCodes": [
+        "MOD-EMB-01"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentCountEstimate": 48,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9272445f-beb8-4a65-9eec-cf6b398983c6"
+      ]
+    },
+    {
+      "id": "otm-4c584cd5-3dc0-4607-99ea-b03188d887bf",
+      "groupId": "otm-87c490f3-610e-4618-a112-bf9a189ea1e2",
+      "documentState": "ACTIVE",
+      "code": "COMP.EMB.201",
+      "lang": "en",
+      "name": {
+        "en": "Real-Time Systems"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Real-Time Systems covers real-time systems, scheduling, timing in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Real-Time Systems can explain and apply real-time systems, scheduling, timing, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "real-time systems",
+        "scheduling",
+        "timing"
+      ],
+      "topicTags": [
+        "real-time systems",
+        "scheduling",
+        "timing"
+      ],
+      "moduleCodes": [
+        "MOD-EMB-02"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentCountEstimate": 58,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-f6e17beb-94e9-404d-b4ee-5b3560085343"
+      ]
+    },
+    {
+      "id": "otm-73c08305-7394-4fbd-80d5-4a1373b75b51",
+      "groupId": "otm-f3801f3a-e35e-4507-8094-2ce60950fcbd",
+      "documentState": "ACTIVE",
+      "code": "COMP.EMB.202",
+      "lang": "en",
+      "name": {
+        "en": "Scheduling for Deterministic Systems"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Scheduling for Deterministic Systems covers scheduling, deterministic systems, timing analysis in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Scheduling for Deterministic Systems can explain and apply scheduling, deterministic systems, timing analysis, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "scheduling",
+        "deterministic systems",
+        "timing analysis"
+      ],
+      "topicTags": [
+        "scheduling",
+        "deterministic systems",
+        "timing analysis"
+      ],
+      "moduleCodes": [
+        "MOD-EMB-02"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentCountEstimate": 40,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-f6e17beb-94e9-404d-b4ee-5b3560085343"
+      ]
+    },
+    {
+      "id": "otm-231d7e34-6ac7-41c7-9d39-7c0bc9c7ab6c",
+      "groupId": "otm-7491f03c-7db0-45bb-a3f2-c621c915e2bf",
+      "documentState": "ACTIVE",
+      "code": "COMP.EMB.203",
+      "lang": "en",
+      "name": {
+        "en": "Timing Analysis and Verification"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Timing Analysis and Verification covers timing analysis, embedded verification, safety in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Timing Analysis and Verification can explain and apply timing analysis, embedded verification, safety, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "timing analysis",
+        "embedded verification",
+        "safety"
+      ],
+      "topicTags": [
+        "timing analysis",
+        "embedded verification",
+        "safety"
+      ],
+      "moduleCodes": [
+        "MOD-EMB-02",
+        "MOD-EMB-03"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentCountEstimate": 34,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-f6e17beb-94e9-404d-b4ee-5b3560085343",
+        "otm-504a7a45-e2e9-42ad-81e8-65fde784846e"
+      ]
+    },
+    {
+      "id": "otm-19aa4b8c-44a0-483a-b704-449831f73358",
+      "groupId": "otm-82e51193-25f4-4a04-8bf8-d4c5478fadda",
+      "documentState": "ACTIVE",
+      "code": "COMP.SAFE.301",
+      "lang": "en",
+      "name": {
+        "en": "Functional Safety and IEC 61508"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Functional Safety and IEC 61508 covers functional safety, IEC 61508, hazard analysis in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Functional Safety and IEC 61508 can explain and apply functional safety, IEC 61508, hazard analysis, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "functional safety",
+        "IEC 61508",
+        "hazard analysis"
+      ],
+      "topicTags": [
+        "functional safety",
+        "IEC 61508",
+        "hazard analysis"
+      ],
+      "moduleCodes": [
+        "MOD-SAFE-01"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentCountEstimate": 32,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-504a7a45-e2e9-42ad-81e8-65fde784846e"
+      ]
+    },
+    {
+      "id": "otm-9ccc360a-5d75-460a-953e-9a465d468caa",
+      "groupId": "otm-69c62e18-f17d-4e69-80d7-40913e545aa4",
+      "documentState": "ACTIVE",
+      "code": "COMP.SAFE.302",
+      "lang": "en",
+      "name": {
+        "en": "Safety-Critical Systems Engineering"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Safety-Critical Systems Engineering covers safety-critical systems, risk analysis, dependability in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Safety-Critical Systems Engineering can explain and apply safety-critical systems, risk analysis, dependability, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "safety-critical systems",
+        "risk analysis",
+        "dependability"
+      ],
+      "topicTags": [
+        "safety-critical systems",
+        "risk analysis",
+        "dependability"
+      ],
+      "moduleCodes": [
+        "MOD-SAFE-01"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentCountEstimate": 36,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-504a7a45-e2e9-42ad-81e8-65fde784846e"
+      ]
+    },
+    {
+      "id": "otm-b581e3a3-cb1b-43a5-abb3-8d0a00410257",
+      "groupId": "otm-ba532aaa-8dfe-408a-8ef9-05fe5ce6523e",
+      "documentState": "ACTIVE",
+      "code": "COMP.SAFE.303",
+      "lang": "en",
+      "name": {
+        "en": "Standards Compliance in Embedded Software"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Standards Compliance in Embedded Software covers standards compliance, certification, embedded software in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Standards Compliance in Embedded Software can explain and apply standards compliance, certification, embedded software, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "standards compliance",
+        "certification",
+        "embedded software"
+      ],
+      "topicTags": [
+        "standards compliance",
+        "certification",
+        "embedded software"
+      ],
+      "moduleCodes": [
+        "MOD-SAFE-01",
+        "MOD-EMB-03"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentCountEstimate": 28,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-504a7a45-e2e9-42ad-81e8-65fde784846e"
+      ]
+    },
+    {
+      "id": "otm-5ab98464-524c-4f6d-8cad-11d246682a48",
+      "groupId": "otm-6af45e72-3377-4ac1-8920-34d0d932c0ea",
+      "documentState": "ACTIVE",
+      "code": "COMP.SAFE.304",
+      "lang": "en",
+      "name": {
+        "en": "Verification of Safety-Critical Embedded Software"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Verification of Safety-Critical Embedded Software covers verification, validation, safety-critical software in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Verification of Safety-Critical Embedded Software can explain and apply verification, validation, safety-critical software, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "verification",
+        "validation",
+        "safety-critical software"
+      ],
+      "topicTags": [
+        "verification",
+        "validation",
+        "safety-critical software"
+      ],
+      "moduleCodes": [
+        "MOD-EMB-03"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentCountEstimate": 26,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-504a7a45-e2e9-42ad-81e8-65fde784846e"
+      ]
+    },
+    {
+      "id": "otm-5bbf32d5-18ee-4dcb-a1b6-78536f0e614a",
+      "groupId": "otm-d1dba399-b6b6-459a-b02a-1cf08826489e",
+      "documentState": "ACTIVE",
+      "code": "AUTO.I40.101",
+      "lang": "en",
+      "name": {
+        "en": "Introduction to Industry 4.0"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Introduction to Industry 4.0 covers Industry 4.0, industrial digitalization, smart manufacturing in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Introduction to Industry 4.0 can explain and apply Industry 4.0, industrial digitalization, smart manufacturing, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "Industry 4.0",
+        "industrial digitalization",
+        "smart manufacturing"
+      ],
+      "topicTags": [
+        "Industry 4.0",
+        "industrial digitalization",
+        "smart manufacturing"
+      ],
+      "moduleCodes": [
+        "MOD-I40-01"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentCountEstimate": 84,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    },
+    {
+      "id": "otm-cfa26e33-e95a-4431-bde2-23048ad1b14f",
+      "groupId": "otm-bedf2adf-3719-4527-b996-689369204efb",
+      "documentState": "ACTIVE",
+      "code": "AUTO.I40.102",
+      "lang": "en",
+      "name": {
+        "en": "Industrial Internet of Things"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Industrial Internet of Things covers industrial IoT, sensors, connected systems in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Industrial Internet of Things can explain and apply industrial IoT, sensors, connected systems, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "industrial IoT",
+        "sensors",
+        "connected systems"
+      ],
+      "topicTags": [
+        "industrial IoT",
+        "sensors",
+        "connected systems"
+      ],
+      "moduleCodes": [
+        "MOD-I40-01"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentCountEstimate": 63,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    },
+    {
+      "id": "otm-23946526-2f1a-47fb-8f94-20a4cc8d4340",
+      "groupId": "otm-f3fa2a4b-8b0b-466a-9ee8-8705d2bad5bc",
+      "documentState": "ACTIVE",
+      "code": "AUTO.I40.103",
+      "lang": "en",
+      "name": {
+        "en": "Cyber-Physical Production Systems"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Cyber-Physical Production Systems covers cyber-physical systems, production systems, automation in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Cyber-Physical Production Systems can explain and apply cyber-physical systems, production systems, automation, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "cyber-physical systems",
+        "production systems",
+        "automation"
+      ],
+      "topicTags": [
+        "cyber-physical systems",
+        "production systems",
+        "automation"
+      ],
+      "moduleCodes": [
+        "MOD-I40-01"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentCountEstimate": 42,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    },
+    {
+      "id": "otm-7fbbed1d-e87d-46f0-93de-11d3e3dfb520",
+      "groupId": "otm-fcb7af5a-b25e-4582-bd5f-89ab66e25cd3",
+      "documentState": "ACTIVE",
+      "code": "AUTO.I40.201",
+      "lang": "en",
+      "name": {
+        "en": "Industrial Data Analytics"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Industrial Data Analytics covers industrial analytics, sensor data, machine data in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Industrial Data Analytics can explain and apply industrial analytics, sensor data, machine data, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "industrial analytics",
+        "sensor data",
+        "machine data"
+      ],
+      "topicTags": [
+        "industrial analytics",
+        "sensor data",
+        "machine data"
+      ],
+      "moduleCodes": [
+        "MOD-I40-02"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentCountEstimate": 55,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-6914a265-8188-4320-9527-b9388e7af5cf"
+      ]
+    },
+    {
+      "id": "otm-2584b3ca-d7e3-4f9c-97d3-78757c13f264",
+      "groupId": "otm-d311419e-a8e8-444b-8729-6998d4946db8",
+      "documentState": "ACTIVE",
+      "code": "AUTO.I40.202",
+      "lang": "en",
+      "name": {
+        "en": "Predictive Maintenance Analytics"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Predictive Maintenance Analytics covers predictive maintenance, analytics, monitoring in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Predictive Maintenance Analytics can explain and apply predictive maintenance, analytics, monitoring, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "predictive maintenance",
+        "analytics",
+        "monitoring"
+      ],
+      "topicTags": [
+        "predictive maintenance",
+        "analytics",
+        "monitoring"
+      ],
+      "moduleCodes": [
+        "MOD-I40-02"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentCountEstimate": 39,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-6914a265-8188-4320-9527-b9388e7af5cf"
+      ]
+    },
+    {
+      "id": "otm-b3ceea5f-52aa-4251-8a27-48df890e7ffa",
+      "groupId": "otm-7d866917-da09-47ad-a64f-14becd28b979",
+      "documentState": "ACTIVE",
+      "code": "AUTO.I40.203",
+      "lang": "en",
+      "name": {
+        "en": "Edge Analytics for Industry"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Edge Analytics for Industry covers edge analytics, industrial data, real-time data in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Edge Analytics for Industry can explain and apply edge analytics, industrial data, real-time data, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "edge analytics",
+        "industrial data",
+        "real-time data"
+      ],
+      "topicTags": [
+        "edge analytics",
+        "industrial data",
+        "real-time data"
+      ],
+      "moduleCodes": [
+        "MOD-I40-02"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentCountEstimate": 31,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-6914a265-8188-4320-9527-b9388e7af5cf"
+      ]
+    },
+    {
+      "id": "otm-9917af81-fbda-4ad7-92a8-b08024dd753a",
+      "groupId": "otm-429ce78c-4ef1-499b-aef9-8582a093520d",
+      "documentState": "ACTIVE",
+      "code": "AUTO.CTL.101",
+      "lang": "en",
+      "name": {
+        "en": "Automation and Control Systems"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Automation and Control Systems covers automation, control systems, PLC in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Automation and Control Systems can explain and apply automation, control systems, PLC, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "automation",
+        "control systems",
+        "PLC"
+      ],
+      "topicTags": [
+        "automation",
+        "control systems",
+        "PLC"
+      ],
+      "moduleCodes": [
+        "MOD-AUTO-01"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentCountEstimate": 73,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    },
+    {
+      "id": "otm-346574e0-73e7-4b54-b683-f9442cf7f0cb",
+      "groupId": "otm-490bd07a-9dd4-4c7b-a986-b75c7428f475",
+      "documentState": "ACTIVE",
+      "code": "AUTO.CTL.102",
+      "lang": "en",
+      "name": {
+        "en": "Industrial Control Networks"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Industrial Control Networks covers industrial control, control networks, protocols in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Industrial Control Networks can explain and apply industrial control, control networks, protocols, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "industrial control",
+        "control networks",
+        "protocols"
+      ],
+      "topicTags": [
+        "industrial control",
+        "control networks",
+        "protocols"
+      ],
+      "moduleCodes": [
+        "MOD-AUTO-01"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentCountEstimate": 41,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    },
+    {
+      "id": "otm-6815dfe1-266d-4d68-99ea-d38deb04c244",
+      "groupId": "otm-830e498e-a5d6-4624-bc02-3d40068d20cd",
+      "documentState": "ACTIVE",
+      "code": "AUTO.ROB.201",
+      "lang": "en",
+      "name": {
+        "en": "Digital Manufacturing and Robotics"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Digital Manufacturing and Robotics covers robotics, digital manufacturing, machine vision in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Digital Manufacturing and Robotics can explain and apply robotics, digital manufacturing, machine vision, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "robotics",
+        "digital manufacturing",
+        "machine vision"
+      ],
+      "topicTags": [
+        "robotics",
+        "digital manufacturing",
+        "machine vision"
+      ],
+      "moduleCodes": [
+        "MOD-I40-03"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentCountEstimate": 44,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    },
+    {
+      "id": "otm-dcd7ea28-3e15-4367-961a-43f92ee999dc",
+      "groupId": "otm-718a0285-c31e-43df-bb11-28e627bd3dbe",
+      "documentState": "ACTIVE",
+      "code": "AUTO.ROB.202",
+      "lang": "en",
+      "name": {
+        "en": "Production Systems Engineering"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Production Systems Engineering covers production systems, manufacturing, system optimization in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Production Systems Engineering can explain and apply production systems, manufacturing, system optimization, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "production systems",
+        "manufacturing",
+        "system optimization"
+      ],
+      "topicTags": [
+        "production systems",
+        "manufacturing",
+        "system optimization"
+      ],
+      "moduleCodes": [
+        "MOD-I40-03"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentCountEstimate": 37,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    },
+    {
+      "id": "otm-c546fa1d-cd42-43b9-b127-676cb10d205b",
+      "groupId": "otm-7efd63f1-d494-476d-a7f3-ac373791a124",
+      "documentState": "ACTIVE",
+      "code": "IEM.OR.101",
+      "lang": "en",
+      "name": {
+        "en": "Operations Research"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Operations Research covers operations research, optimization, decision analysis in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Operations Research can explain and apply operations research, optimization, decision analysis, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "operations research",
+        "optimization",
+        "decision analysis"
+      ],
+      "topicTags": [
+        "operations research",
+        "optimization",
+        "decision analysis"
+      ],
+      "moduleCodes": [
+        "MOD-OR-01"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentCountEstimate": 78,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-fc878173-0e57-4924-a1fe-09e4d544ea81",
+      "groupId": "otm-e6bf7e7b-ab8a-4866-b1d3-f4c119fb0e5b",
+      "documentState": "ACTIVE",
+      "code": "IEM.OR.102",
+      "lang": "en",
+      "name": {
+        "en": "Mathematical Modelling for Decision Making"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Mathematical Modelling for Decision Making covers mathematical modelling, decision making, analysis in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Mathematical Modelling for Decision Making can explain and apply mathematical modelling, decision making, analysis, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "mathematical modelling",
+        "decision making",
+        "analysis"
+      ],
+      "topicTags": [
+        "mathematical modelling",
+        "decision making",
+        "analysis"
+      ],
+      "moduleCodes": [
+        "MOD-OR-01"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentCountEstimate": 57,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-9e1e1ccb-2d3d-47d0-9a0c-fc0fe6c44e18",
+      "groupId": "otm-04393313-302c-4dac-9a93-0954d5c7cdbd",
+      "documentState": "ACTIVE",
+      "code": "IEM.OR.201",
+      "lang": "en",
+      "name": {
+        "en": "Linear Programming"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Linear Programming covers linear programming, optimization, mathematical methods in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Linear Programming can explain and apply linear programming, optimization, mathematical methods, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "linear programming",
+        "optimization",
+        "mathematical methods"
+      ],
+      "topicTags": [
+        "linear programming",
+        "optimization",
+        "mathematical methods"
+      ],
+      "moduleCodes": [
+        "MOD-OR-02"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentCountEstimate": 49,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-0edcb576-e862-4995-b9d9-aae8493c58bf",
+      "groupId": "otm-ae7702ec-5738-4cde-aaa9-e0f2f5abf38b",
+      "documentState": "ACTIVE",
+      "code": "IEM.OR.202",
+      "lang": "en",
+      "name": {
+        "en": "Integer and Combinatorial Optimization"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Integer and Combinatorial Optimization covers integer optimization, combinatorial optimization, planning in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Integer and Combinatorial Optimization can explain and apply integer optimization, combinatorial optimization, planning, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "integer optimization",
+        "combinatorial optimization",
+        "planning"
+      ],
+      "topicTags": [
+        "integer optimization",
+        "combinatorial optimization",
+        "planning"
+      ],
+      "moduleCodes": [
+        "MOD-OR-02"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentCountEstimate": 33,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-7305f1de-9db9-4f50-adf5-0e50ee411049",
+      "groupId": "otm-250fcc81-3653-408e-a32b-08aac8955492",
+      "documentState": "ACTIVE",
+      "code": "IEM.OR.203",
+      "lang": "en",
+      "name": {
+        "en": "Simulation for Operations Planning"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Simulation for Operations Planning covers simulation, operations planning, uncertainty in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Simulation for Operations Planning can explain and apply simulation, operations planning, uncertainty, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "simulation",
+        "operations planning",
+        "uncertainty"
+      ],
+      "topicTags": [
+        "simulation",
+        "operations planning",
+        "uncertainty"
+      ],
+      "moduleCodes": [
+        "MOD-OR-02"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentCountEstimate": 38,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-4f5caac4-ed05-466c-9349-c007abb43ebe",
+      "groupId": "otm-1f577b4a-e75e-4960-998a-9ea037070fbc",
+      "documentState": "ACTIVE",
+      "code": "IEM.OR.301",
+      "lang": "en",
+      "name": {
+        "en": "Supply Chain Analytics"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Supply Chain Analytics covers supply chain, analytics, planning in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Supply Chain Analytics can explain and apply supply chain, analytics, planning, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "supply chain",
+        "analytics",
+        "planning"
+      ],
+      "topicTags": [
+        "supply chain",
+        "analytics",
+        "planning"
+      ],
+      "moduleCodes": [
+        "MOD-OR-03"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentCountEstimate": 46,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-58d750de-c260-4735-9d6c-0259c0ddc742",
+      "groupId": "otm-6f434982-2a86-4f59-8ab1-5ff1a57b6e5f",
+      "documentState": "ACTIVE",
+      "code": "IEM.OR.302",
+      "lang": "en",
+      "name": {
+        "en": "Logistics Network Optimization"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Logistics Network Optimization covers logistics, network optimization, routing in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Logistics Network Optimization can explain and apply logistics, network optimization, routing, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "logistics",
+        "network optimization",
+        "routing"
+      ],
+      "topicTags": [
+        "logistics",
+        "network optimization",
+        "routing"
+      ],
+      "moduleCodes": [
+        "MOD-OR-03"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentCountEstimate": 29,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-8a99bc90-66ae-413c-b465-a757b4416e69",
+      "groupId": "otm-9d22e7bb-eff9-49b5-b438-10ba5f3e3671",
+      "documentState": "ACTIVE",
+      "code": "IEM.OR.303",
+      "lang": "en",
+      "name": {
+        "en": "Decision Support Systems"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Decision Support Systems covers decision support, optimization, analytics in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Decision Support Systems can explain and apply decision support, optimization, analytics, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "decision support",
+        "optimization",
+        "analytics"
+      ],
+      "topicTags": [
+        "decision support",
+        "optimization",
+        "analytics"
+      ],
+      "moduleCodes": [
+        "MOD-OR-01",
+        "MOD-AI-01"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering",
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentCountEstimate": 34,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff",
+        "otm-e3c4146b-6838-4f59-ac79-82bbde144665"
+      ]
+    },
+    {
+      "id": "otm-246631a7-2878-42f2-8afb-6485d5a59ec2",
+      "groupId": "otm-fc081e61-92f0-47e0-8403-f6746ab738ec",
+      "documentState": "ACTIVE",
+      "code": "DATA.AI.101",
+      "lang": "en",
+      "name": {
+        "en": "AI Systems Foundations"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "AI Systems Foundations covers AI systems, intelligent systems, decision support in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing AI Systems Foundations can explain and apply AI systems, intelligent systems, decision support, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "AI systems",
+        "intelligent systems",
+        "decision support"
+      ],
+      "topicTags": [
+        "AI systems",
+        "intelligent systems",
+        "decision support"
+      ],
+      "moduleCodes": [
+        "MOD-AI-01"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentCountEstimate": 61,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-e3c4146b-6838-4f59-ac79-82bbde144665"
+      ]
+    },
+    {
+      "id": "otm-59e3c579-116c-4242-bafd-7e2bd3c93f5d",
+      "groupId": "otm-5aa32319-85ba-47e1-9901-8cb9b3029c2a",
+      "documentState": "ACTIVE",
+      "code": "DATA.AI.102",
+      "lang": "en",
+      "name": {
+        "en": "Intelligent Agents"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Intelligent Agents covers intelligent agents, planning, autonomy in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Intelligent Agents can explain and apply intelligent agents, planning, autonomy, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "intelligent agents",
+        "planning",
+        "autonomy"
+      ],
+      "topicTags": [
+        "intelligent agents",
+        "planning",
+        "autonomy"
+      ],
+      "moduleCodes": [
+        "MOD-AI-01"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentCountEstimate": 47,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-e3c4146b-6838-4f59-ac79-82bbde144665"
+      ]
+    },
+    {
+      "id": "otm-5b74aab7-08e0-435c-85dc-ca55b45d08e8",
+      "groupId": "otm-c076baa8-39d2-4e3e-8cd9-434ed4f78fcf",
+      "documentState": "ACTIVE",
+      "code": "DATA.AI.103",
+      "lang": "en",
+      "name": {
+        "en": "Multi-Agent Systems"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Multi-Agent Systems covers multi-agent systems, coordination, agents in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Multi-Agent Systems can explain and apply multi-agent systems, coordination, agents, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "multi-agent systems",
+        "coordination",
+        "agents"
+      ],
+      "topicTags": [
+        "multi-agent systems",
+        "coordination",
+        "agents"
+      ],
+      "moduleCodes": [
+        "MOD-AI-03"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentCountEstimate": 36,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-e3c4146b-6838-4f59-ac79-82bbde144665"
+      ]
+    },
+    {
+      "id": "otm-a7b3774a-e7ab-4898-84ae-159a8261dd3e",
+      "groupId": "otm-78a83d10-4c24-4796-9ca3-ffb696d5450a",
+      "documentState": "ACTIVE",
+      "code": "DATA.AI.201",
+      "lang": "en",
+      "name": {
+        "en": "Information Retrieval"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Information Retrieval covers information retrieval, search, ranking in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Information Retrieval can explain and apply information retrieval, search, ranking, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "information retrieval",
+        "search",
+        "ranking"
+      ],
+      "topicTags": [
+        "information retrieval",
+        "search",
+        "ranking"
+      ],
+      "moduleCodes": [
+        "MOD-AI-02"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentCountEstimate": 54,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-948d5a76-7f55-4a51-859e-fbaec7ecaeb2"
+      ]
+    },
+    {
+      "id": "otm-5428a62d-8653-401c-8bb5-c42b4819145a",
+      "groupId": "otm-db436655-9728-47af-8abd-9a2fb8fe00cc",
+      "documentState": "ACTIVE",
+      "code": "DATA.AI.202",
+      "lang": "en",
+      "name": {
+        "en": "Retrieval-Augmented Generation"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Retrieval-Augmented Generation covers RAG, retrieval-augmented generation, vector search in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Retrieval-Augmented Generation can explain and apply RAG, retrieval-augmented generation, vector search, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "RAG",
+        "retrieval-augmented generation",
+        "vector search"
+      ],
+      "topicTags": [
+        "RAG",
+        "retrieval-augmented generation",
+        "vector search"
+      ],
+      "moduleCodes": [
+        "MOD-AI-02"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentCountEstimate": 43,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-948d5a76-7f55-4a51-859e-fbaec7ecaeb2"
+      ]
+    },
+    {
+      "id": "otm-5c4eea1d-c86d-499c-81d3-5edb32401222",
+      "groupId": "otm-2be64fb1-3461-43ac-bce3-1353b0cc2770",
+      "documentState": "ACTIVE",
+      "code": "DATA.AI.203",
+      "lang": "en",
+      "name": {
+        "en": "Semantic Search and Embeddings"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Semantic Search and Embeddings covers semantic search, embeddings, dense retrieval in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Semantic Search and Embeddings can explain and apply semantic search, embeddings, dense retrieval, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "semantic search",
+        "embeddings",
+        "dense retrieval"
+      ],
+      "topicTags": [
+        "semantic search",
+        "embeddings",
+        "dense retrieval"
+      ],
+      "moduleCodes": [
+        "MOD-AI-02"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentCountEstimate": 35,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-948d5a76-7f55-4a51-859e-fbaec7ecaeb2"
+      ]
+    },
+    {
+      "id": "otm-bc21fb3c-c44d-4f80-a613-156684500d99",
+      "groupId": "otm-cc5f5bf9-d4a2-4020-9546-1f7b79d8260b",
+      "documentState": "ACTIVE",
+      "code": "DATA.AI.204",
+      "lang": "en",
+      "name": {
+        "en": "Agent Orchestration and Tool Use"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Agent Orchestration and Tool Use covers agent orchestration, tool use, policy-aware orchestration in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Agent Orchestration and Tool Use can explain and apply agent orchestration, tool use, policy-aware orchestration, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "agent orchestration",
+        "tool use",
+        "policy-aware orchestration"
+      ],
+      "topicTags": [
+        "agent orchestration",
+        "tool use",
+        "policy-aware orchestration"
+      ],
+      "moduleCodes": [
+        "MOD-AI-03",
+        "MOD-SEC-01"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentCountEstimate": 30,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-e3c4146b-6838-4f59-ac79-82bbde144665"
+      ]
+    },
+    {
+      "id": "otm-94612de6-3849-4631-9fa3-158be50bb3ac",
+      "groupId": "otm-3a1f983e-48e1-47e1-9eac-f33026f36328",
+      "documentState": "ACTIVE",
+      "code": "DATA.ENG.101",
+      "lang": "en",
+      "name": {
+        "en": "Data Engineering for Industrial Systems"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Data Engineering for Industrial Systems covers data engineering, ETL, industrial data in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Data Engineering for Industrial Systems can explain and apply data engineering, ETL, industrial data, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "data engineering",
+        "ETL",
+        "industrial data"
+      ],
+      "topicTags": [
+        "data engineering",
+        "ETL",
+        "industrial data"
+      ],
+      "moduleCodes": [
+        "MOD-DATA-01"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentCountEstimate": 58,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-6914a265-8188-4320-9527-b9388e7af5cf"
+      ]
+    },
+    {
+      "id": "otm-58dfeb48-7bc0-4bc9-8bea-e40b47b20615",
+      "groupId": "otm-13915ac2-a4ed-4018-a43a-40925151e3d3",
+      "documentState": "ACTIVE",
+      "code": "DATA.ENG.102",
+      "lang": "en",
+      "name": {
+        "en": "Industrial Data Pipelines"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Industrial Data Pipelines covers data pipelines, stream processing, industrial systems in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Industrial Data Pipelines can explain and apply data pipelines, stream processing, industrial systems, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "data pipelines",
+        "stream processing",
+        "industrial systems"
+      ],
+      "topicTags": [
+        "data pipelines",
+        "stream processing",
+        "industrial systems"
+      ],
+      "moduleCodes": [
+        "MOD-DATA-01"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentCountEstimate": 40,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-6914a265-8188-4320-9527-b9388e7af5cf"
+      ]
+    },
+    {
+      "id": "otm-2fe226a5-5193-4db3-ad3e-27e4b8321eb6",
+      "groupId": "otm-85a0660a-e324-4ef8-97c7-6d13a3d3cf95",
+      "documentState": "ACTIVE",
+      "code": "DATA.ENG.201",
+      "lang": "en",
+      "name": {
+        "en": "Knowledge Graphs and Enterprise Data"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Knowledge Graphs and Enterprise Data covers knowledge graphs, enterprise data, interoperability in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Knowledge Graphs and Enterprise Data can explain and apply knowledge graphs, enterprise data, interoperability, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "knowledge graphs",
+        "enterprise data",
+        "interoperability"
+      ],
+      "topicTags": [
+        "knowledge graphs",
+        "enterprise data",
+        "interoperability"
+      ],
+      "moduleCodes": [
+        "MOD-DATA-01"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentCountEstimate": 27,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-6914a265-8188-4320-9527-b9388e7af5cf"
+      ]
+    },
+    {
+      "id": "otm-e9d5aa43-ad92-499f-8628-1d64656ca0f2",
+      "groupId": "otm-0dcfac3d-39da-4b4e-89ed-bbed9d08dc17",
+      "documentState": "ACTIVE",
+      "code": "CONST.101",
+      "lang": "en",
+      "name": {
+        "en": "Construction Informatics"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Construction Informatics covers construction informatics, project data, digital built environment in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Construction Informatics can explain and apply construction informatics, project data, digital built environment, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "construction informatics",
+        "project data",
+        "digital built environment"
+      ],
+      "topicTags": [
+        "construction informatics",
+        "project data",
+        "digital built environment"
+      ],
+      "moduleCodes": [
+        "MOD-CON-01"
+      ],
+      "degreeProgrammes": [
+        "Construction Technology"
+      ],
+      "annualStudentCountEstimate": 51,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-d391aa23-da59-40de-b98f-901457b87115"
+      ]
+    },
+    {
+      "id": "otm-6180d36f-c594-4a77-94ef-f4a86320f113",
+      "groupId": "otm-5146a3a1-01ed-422b-874c-187bc1271749",
+      "documentState": "ACTIVE",
+      "code": "CONST.102",
+      "lang": "en",
+      "name": {
+        "en": "Building Information Modeling"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Building Information Modeling covers BIM, building information modeling, digital design in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Building Information Modeling can explain and apply BIM, building information modeling, digital design, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "BIM",
+        "building information modeling",
+        "digital design"
+      ],
+      "topicTags": [
+        "BIM",
+        "building information modeling",
+        "digital design"
+      ],
+      "moduleCodes": [
+        "MOD-CON-01"
+      ],
+      "degreeProgrammes": [
+        "Construction Technology"
+      ],
+      "annualStudentCountEstimate": 62,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-d391aa23-da59-40de-b98f-901457b87115"
+      ]
+    },
+    {
+      "id": "otm-2246cfd4-6f73-48e0-8a6a-0e6f2354033e",
+      "groupId": "otm-bc46233e-6bea-4cc4-a482-2ea811e353c1",
+      "documentState": "ACTIVE",
+      "code": "CONST.201",
+      "lang": "en",
+      "name": {
+        "en": "Data Management in Construction Projects"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Data Management in Construction Projects covers construction data, project data, information management in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Data Management in Construction Projects can explain and apply construction data, project data, information management, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "construction data",
+        "project data",
+        "information management"
+      ],
+      "topicTags": [
+        "construction data",
+        "project data",
+        "information management"
+      ],
+      "moduleCodes": [
+        "MOD-CON-01"
+      ],
+      "degreeProgrammes": [
+        "Construction Technology"
+      ],
+      "annualStudentCountEstimate": 33,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-d391aa23-da59-40de-b98f-901457b87115"
+      ]
+    },
+    {
+      "id": "otm-a5fea198-0fec-456e-b064-8fb4863a0144",
+      "groupId": "otm-6e360676-3005-4363-80bb-71d7f8d0ef1d",
+      "documentState": "ACTIVE",
+      "code": "MEP.101",
+      "lang": "en",
+      "name": {
+        "en": "MEP Systems Data and Documentation"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "MEP Systems Data and Documentation covers MEP, facility systems, documentation in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing MEP Systems Data and Documentation can explain and apply MEP, facility systems, documentation, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "MEP",
+        "facility systems",
+        "documentation"
+      ],
+      "topicTags": [
+        "MEP",
+        "facility systems",
+        "documentation"
+      ],
+      "moduleCodes": [
+        "MOD-CON-02"
+      ],
+      "degreeProgrammes": [
+        "Construction Technology"
+      ],
+      "annualStudentCountEstimate": 39,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-d391aa23-da59-40de-b98f-901457b87115"
+      ]
+    },
+    {
+      "id": "otm-63af2445-cf09-4d66-9848-cc72ef445d8c",
+      "groupId": "otm-95ca7f02-f320-49a0-bd7d-4fef541b5cbc",
+      "documentState": "ACTIVE",
+      "code": "MEP.201",
+      "lang": "en",
+      "name": {
+        "en": "Built Environment Asset Information"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Built Environment Asset Information covers asset information, facility data, maintenance in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Built Environment Asset Information can explain and apply asset information, facility data, maintenance, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "asset information",
+        "facility data",
+        "maintenance"
+      ],
+      "topicTags": [
+        "asset information",
+        "facility data",
+        "maintenance"
+      ],
+      "moduleCodes": [
+        "MOD-CON-02",
+        "MOD-CON-03"
+      ],
+      "degreeProgrammes": [
+        "Construction Technology"
+      ],
+      "annualStudentCountEstimate": 31,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-d391aa23-da59-40de-b98f-901457b87115",
+        "otm-79db38e2-7624-4308-a71e-166d142e5a5a"
+      ]
+    },
+    {
+      "id": "otm-400073cd-f252-46af-891a-edaab53c934d",
+      "groupId": "otm-4cbc7a19-1aa7-418d-82b2-2d7f9b84488a",
+      "documentState": "ACTIVE",
+      "code": "REAL.101",
+      "lang": "en",
+      "name": {
+        "en": "Real Estate Data Systems"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Real Estate Data Systems covers real estate, data systems, facility analytics in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Real Estate Data Systems can explain and apply real estate, data systems, facility analytics, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "real estate",
+        "data systems",
+        "facility analytics"
+      ],
+      "topicTags": [
+        "real estate",
+        "data systems",
+        "facility analytics"
+      ],
+      "moduleCodes": [
+        "MOD-CON-03"
+      ],
+      "degreeProgrammes": [
+        "Construction Technology"
+      ],
+      "annualStudentCountEstimate": 36,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-79db38e2-7624-4308-a71e-166d142e5a5a"
+      ]
+    },
+    {
+      "id": "otm-dc73c2cf-bdb2-4c1c-bd09-311a59319f91",
+      "groupId": "otm-6b77e8d7-32dd-4611-aae0-c0e227b9f35d",
+      "documentState": "ACTIVE",
+      "code": "REAL.201",
+      "lang": "en",
+      "name": {
+        "en": "Asset Lifecycle Analytics"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Asset Lifecycle Analytics covers asset lifecycle, analytics, maintenance planning in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Asset Lifecycle Analytics can explain and apply asset lifecycle, analytics, maintenance planning, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "asset lifecycle",
+        "analytics",
+        "maintenance planning"
+      ],
+      "topicTags": [
+        "asset lifecycle",
+        "analytics",
+        "maintenance planning"
+      ],
+      "moduleCodes": [
+        "MOD-CON-03"
+      ],
+      "degreeProgrammes": [
+        "Construction Technology"
+      ],
+      "annualStudentCountEstimate": 28,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-79db38e2-7624-4308-a71e-166d142e5a5a"
+      ]
+    },
+    {
+      "id": "otm-7a7d52ca-8755-4a59-bd01-908b5ebcd7d9",
+      "groupId": "otm-eeda7b83-14d0-4680-9407-90c32ff2fafa",
+      "documentState": "ACTIVE",
+      "code": "PROJ.401",
+      "lang": "en",
+      "name": {
+        "en": "Industry Collaboration Project"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Industry Collaboration Project covers industry collaboration, applied project, teamwork in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Industry Collaboration Project can explain and apply industry collaboration, applied project, teamwork, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "industry collaboration",
+        "applied project",
+        "teamwork"
+      ],
+      "topicTags": [
+        "industry collaboration",
+        "applied project",
+        "teamwork"
+      ],
+      "moduleCodes": [
+        "MOD-PROJ-01"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentCountEstimate": 64,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-406022b3-8dd3-4b5e-a888-fd7803d9a697",
+      "groupId": "otm-de039491-b98c-4cb3-83d1-4655b16f5a15",
+      "documentState": "ACTIVE",
+      "code": "PROJ.402",
+      "lang": "en",
+      "name": {
+        "en": "MSc Thesis Seminar in Applied Analytics"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "MSc Thesis Seminar in Applied Analytics covers MSc thesis, seminar, applied analytics in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing MSc Thesis Seminar in Applied Analytics can explain and apply MSc thesis, seminar, applied analytics, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "MSc thesis",
+        "seminar",
+        "applied analytics"
+      ],
+      "topicTags": [
+        "MSc thesis",
+        "seminar",
+        "applied analytics"
+      ],
+      "moduleCodes": [
+        "MOD-PROJ-01"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentCountEstimate": 45,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-16be4045-f26d-46d0-a3ba-292ffbefbee8",
+      "groupId": "otm-1830ecb9-6d8a-49bb-93c9-fd60133ffa28",
+      "documentState": "ACTIVE",
+      "code": "PROJ.403",
+      "lang": "en",
+      "name": {
+        "en": "Research Methods for Industrial AI"
+      },
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "description": {
+        "en": "Research Methods for Industrial AI covers research methods, industrial AI, experimentation in an applied university curriculum context."
+      },
+      "learningOutcomes": {
+        "en": "Students completing Research Methods for Industrial AI can explain and apply research methods, industrial AI, experimentation, and relate these skills to industrial problem solving."
+      },
+      "keywords": [
+        "research methods",
+        "industrial AI",
+        "experimentation"
+      ],
+      "topicTags": [
+        "research methods",
+        "industrial AI",
+        "experimentation"
+      ],
+      "moduleCodes": [
+        "MOD-PROJ-01",
+        "MOD-AI-01"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering",
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentCountEstimate": 41,
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff",
+        "otm-e3c4146b-6838-4f59-ac79-82bbde144665"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "otm-6ef38ba0-1f51-459b-8b9a-7aa84fb696c7",
+      "groupId": "otm-23d1cf24-fdaf-4eea-a520-9e5540513530",
+      "documentState": "ACTIVE",
+      "code": "MOD-SE-01",
+      "lang": "en",
+      "name": {
+        "en": "Software Engineering Foundations"
+      },
+      "description": {
+        "en": "Software Engineering Foundations module focusing on software engineering, requirements, agile."
+      },
+      "topicTags": [
+        "software engineering",
+        "requirements",
+        "agile",
+        "software lifecycle"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentVolumeEstimate": 90,
+      "courseCodes": [
+        "COMP.SE.101",
+        "COMP.SE.102",
+        "COMP.SE.103"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9ed9a4b1-7d69-4127-9d31-95b2790e4e4a"
+      ]
+    },
+    {
+      "id": "otm-9f2dee05-bda3-49b9-a47f-9edfb699f70e",
+      "groupId": "otm-ea96cc9d-1d41-4776-973a-0c43bc73e509",
+      "documentState": "ACTIVE",
+      "code": "MOD-SE-02",
+      "lang": "en",
+      "name": {
+        "en": "Software Quality and Testing"
+      },
+      "description": {
+        "en": "Software Quality and Testing module focusing on software testing, quality assurance, verification."
+      },
+      "topicTags": [
+        "software testing",
+        "quality assurance",
+        "verification",
+        "validation"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentVolumeEstimate": 35,
+      "courseCodes": [
+        "COMP.SE.201",
+        "COMP.SE.202",
+        "COMP.SE.203"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-56044514-4a54-448f-b9ca-dfc1dd9e1b37"
+      ]
+    },
+    {
+      "id": "otm-c6c53fdd-35ff-424c-89c9-6f840b53418e",
+      "groupId": "otm-a8d4f21b-d75b-4826-8f27-d9ee424bdda9",
+      "documentState": "ACTIVE",
+      "code": "MOD-EMB-01",
+      "lang": "en",
+      "name": {
+        "en": "Embedded Systems Core"
+      },
+      "description": {
+        "en": "Embedded Systems Core module focusing on embedded systems, microcontrollers, firmware."
+      },
+      "topicTags": [
+        "embedded systems",
+        "microcontrollers",
+        "firmware",
+        "hardware-software integration"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentVolumeEstimate": 35,
+      "courseCodes": [
+        "COMP.EMB.101",
+        "COMP.EMB.102",
+        "COMP.EMB.103"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9272445f-beb8-4a65-9eec-cf6b398983c6"
+      ]
+    },
+    {
+      "id": "otm-553c60f7-9fe9-41f8-931f-4a0e0e9f527c",
+      "groupId": "otm-6b034236-aa90-4608-99ae-78dc01607d03",
+      "documentState": "ACTIVE",
+      "code": "MOD-EMB-02",
+      "lang": "en",
+      "name": {
+        "en": "Real-Time Systems"
+      },
+      "description": {
+        "en": "Real-Time Systems module focusing on real-time systems, scheduling, deterministic systems."
+      },
+      "topicTags": [
+        "real-time systems",
+        "scheduling",
+        "deterministic systems",
+        "timing analysis"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentVolumeEstimate": 90,
+      "courseCodes": [
+        "COMP.EMB.201",
+        "COMP.EMB.202",
+        "COMP.EMB.203"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-f6e17beb-94e9-404d-b4ee-5b3560085343"
+      ]
+    },
+    {
+      "id": "otm-9c950669-284a-415a-937c-892f3d83300d",
+      "groupId": "otm-7341c6e9-30d6-40ce-8681-10e730aa928e",
+      "documentState": "ACTIVE",
+      "code": "MOD-SAFE-01",
+      "lang": "en",
+      "name": {
+        "en": "Functional Safety and Standards"
+      },
+      "description": {
+        "en": "Functional Safety and Standards module focusing on functional safety, IEC 61508, safety-critical systems."
+      },
+      "topicTags": [
+        "functional safety",
+        "IEC 61508",
+        "safety-critical systems",
+        "hazard analysis"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentVolumeEstimate": 50,
+      "courseCodes": [
+        "COMP.SAFE.301",
+        "COMP.SAFE.302",
+        "COMP.SAFE.303"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-504a7a45-e2e9-42ad-81e8-65fde784846e"
+      ]
+    },
+    {
+      "id": "otm-c72749a0-0f95-4e51-b853-d29f2aabbe2b",
+      "groupId": "otm-9016c846-b079-48a3-8dd0-e1beeaf63e6d",
+      "documentState": "ACTIVE",
+      "code": "MOD-I40-01",
+      "lang": "en",
+      "name": {
+        "en": "Industry 4.0 Systems"
+      },
+      "description": {
+        "en": "Industry 4.0 Systems module focusing on Industry 4.0, smart manufacturing, industrial IoT."
+      },
+      "topicTags": [
+        "Industry 4.0",
+        "smart manufacturing",
+        "industrial IoT",
+        "cyber-physical systems"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentVolumeEstimate": 45,
+      "courseCodes": [
+        "AUTO.I40.101",
+        "AUTO.I40.102",
+        "AUTO.I40.103"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    },
+    {
+      "id": "otm-caae20b1-5a31-4bda-89ff-2d315ff70b8c",
+      "groupId": "otm-bf92c799-7585-4b17-aaf4-1704e4abd498",
+      "documentState": "ACTIVE",
+      "code": "MOD-I40-02",
+      "lang": "en",
+      "name": {
+        "en": "Industrial Data and Analytics"
+      },
+      "description": {
+        "en": "Industrial Data and Analytics module focusing on industrial analytics, predictive maintenance, sensor data."
+      },
+      "topicTags": [
+        "industrial analytics",
+        "predictive maintenance",
+        "sensor data",
+        "edge analytics"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentVolumeEstimate": 45,
+      "courseCodes": [
+        "AUTO.I40.201",
+        "AUTO.I40.202",
+        "AUTO.I40.203"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-6914a265-8188-4320-9527-b9388e7af5cf"
+      ]
+    },
+    {
+      "id": "otm-11720ad3-9da5-46c9-a348-5d410d8ae143",
+      "groupId": "otm-d0a5f165-7dfb-4830-b606-7712a32ffb18",
+      "documentState": "ACTIVE",
+      "code": "MOD-OR-01",
+      "lang": "en",
+      "name": {
+        "en": "Operations Research Foundations"
+      },
+      "description": {
+        "en": "Operations Research Foundations module focusing on operations research, optimization, decision analysis."
+      },
+      "topicTags": [
+        "operations research",
+        "optimization",
+        "decision analysis",
+        "mathematical modelling"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentVolumeEstimate": 45,
+      "courseCodes": [
+        "IEM.OR.101",
+        "IEM.OR.102",
+        "IEM.OR.303"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-6833efe4-ee2e-49e3-8d8c-ad3a0b0adc9b",
+      "groupId": "otm-4eb3200d-67c7-4a96-b999-89f2b7260a01",
+      "documentState": "ACTIVE",
+      "code": "MOD-OR-02",
+      "lang": "en",
+      "name": {
+        "en": "Advanced Optimization"
+      },
+      "description": {
+        "en": "Advanced Optimization module focusing on linear programming, integer optimization, stochastic optimization."
+      },
+      "topicTags": [
+        "linear programming",
+        "integer optimization",
+        "stochastic optimization",
+        "simulation"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentVolumeEstimate": 90,
+      "courseCodes": [
+        "IEM.OR.201",
+        "IEM.OR.202",
+        "IEM.OR.203"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-a2d8870b-5beb-42fe-b128-694cffc55f58",
+      "groupId": "otm-42e40c66-a7eb-41bc-9cbe-a9ab0d2441a1",
+      "documentState": "ACTIVE",
+      "code": "MOD-AI-01",
+      "lang": "en",
+      "name": {
+        "en": "AI Systems and Intelligent Agents"
+      },
+      "description": {
+        "en": "AI Systems and Intelligent Agents module focusing on AI systems, intelligent agents, autonomous systems."
+      },
+      "topicTags": [
+        "AI systems",
+        "intelligent agents",
+        "autonomous systems",
+        "decision support"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentVolumeEstimate": 35,
+      "courseCodes": [
+        "IEM.OR.303",
+        "DATA.AI.101",
+        "DATA.AI.102",
+        "PROJ.403"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-e3c4146b-6838-4f59-ac79-82bbde144665"
+      ]
+    },
+    {
+      "id": "otm-acb03c3e-11b7-4d75-8327-fc7e88a247dc",
+      "groupId": "otm-a7af6440-65d0-43d3-9bd4-f6a6b2c2a8ae",
+      "documentState": "ACTIVE",
+      "code": "MOD-AI-02",
+      "lang": "en",
+      "name": {
+        "en": "Information Retrieval and RAG"
+      },
+      "description": {
+        "en": "Information Retrieval and RAG module focusing on information retrieval, RAG, vector search."
+      },
+      "topicTags": [
+        "information retrieval",
+        "RAG",
+        "vector search",
+        "knowledge augmentation"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentVolumeEstimate": 90,
+      "courseCodes": [
+        "DATA.AI.201",
+        "DATA.AI.202",
+        "DATA.AI.203"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-948d5a76-7f55-4a51-859e-fbaec7ecaeb2"
+      ]
+    },
+    {
+      "id": "otm-7b6582b2-ac25-4503-8e66-6debb0b27805",
+      "groupId": "otm-2114fe2c-ef4d-43fb-8357-570d61295be3",
+      "documentState": "ACTIVE",
+      "code": "MOD-CON-01",
+      "lang": "en",
+      "name": {
+        "en": "Construction Digitalization"
+      },
+      "description": {
+        "en": "Construction Digitalization module focusing on construction informatics, digital built environment, BIM."
+      },
+      "topicTags": [
+        "construction informatics",
+        "digital built environment",
+        "BIM",
+        "project data"
+      ],
+      "degreeProgrammes": [
+        "Construction Technology"
+      ],
+      "annualStudentVolumeEstimate": 90,
+      "courseCodes": [
+        "CONST.101",
+        "CONST.102",
+        "CONST.201"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-d391aa23-da59-40de-b98f-901457b87115"
+      ]
+    },
+    {
+      "id": "otm-2d355675-4cec-4850-ac8e-82fc43621dfa",
+      "groupId": "otm-c1658e3a-e281-4587-8c82-50e810dd08c0",
+      "documentState": "ACTIVE",
+      "code": "MOD-CON-02",
+      "lang": "en",
+      "name": {
+        "en": "MEP and Built Environment Data"
+      },
+      "description": {
+        "en": "MEP and Built Environment Data module focusing on MEP, facility systems, asset information."
+      },
+      "topicTags": [
+        "MEP",
+        "facility systems",
+        "asset information",
+        "real estate data"
+      ],
+      "degreeProgrammes": [
+        "Construction Technology"
+      ],
+      "annualStudentVolumeEstimate": 75,
+      "courseCodes": [
+        "MEP.101",
+        "MEP.201"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-d391aa23-da59-40de-b98f-901457b87115"
+      ]
+    },
+    {
+      "id": "otm-8f070743-6ab3-4a13-8193-b1224e66129d",
+      "groupId": "otm-ffbb74ab-03ca-4c12-9462-13f467331e3f",
+      "documentState": "ACTIVE",
+      "code": "MOD-SYS-01",
+      "lang": "en",
+      "name": {
+        "en": "Systems Integration"
+      },
+      "description": {
+        "en": "Systems Integration module focusing on systems integration, APIs, industrial systems."
+      },
+      "topicTags": [
+        "systems integration",
+        "APIs",
+        "industrial systems",
+        "data interoperability"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentVolumeEstimate": 35,
+      "courseCodes": [
+        "COMP.SE.303"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    },
+    {
+      "id": "otm-b553b7ca-088c-4b40-9601-1871140e596e",
+      "groupId": "otm-51c20dcb-294a-40fc-b97d-ea18ba3a3775",
+      "documentState": "ACTIVE",
+      "code": "MOD-SEC-01",
+      "lang": "en",
+      "name": {
+        "en": "Secure and Governable AI"
+      },
+      "description": {
+        "en": "Secure and Governable AI module focusing on AI security, governance, auditability."
+      },
+      "topicTags": [
+        "AI security",
+        "governance",
+        "auditability",
+        "policy-aware orchestration"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentVolumeEstimate": 75,
+      "courseCodes": [
+        "COMP.SE.304",
+        "DATA.AI.204"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-e3c4146b-6838-4f59-ac79-82bbde144665"
+      ]
+    },
+    {
+      "id": "otm-8ec8b111-06b0-4bac-b076-5d4ec8f89e43",
+      "groupId": "otm-403d9f30-2e7a-449e-aa00-a2035e14e2be",
+      "documentState": "ACTIVE",
+      "code": "MOD-PROJ-01",
+      "lang": "en",
+      "name": {
+        "en": "Industry Thesis and Project Work"
+      },
+      "description": {
+        "en": "Industry Thesis and Project Work module focusing on industry collaboration, MSc thesis, applied research."
+      },
+      "topicTags": [
+        "industry collaboration",
+        "MSc thesis",
+        "applied research",
+        "project work"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentVolumeEstimate": 60,
+      "courseCodes": [
+        "PROJ.401",
+        "PROJ.402",
+        "PROJ.403"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-1b4cab91-b343-417f-8ac6-4e135931a7cc",
+      "groupId": "otm-3254bba4-05e0-4c34-9fdc-703e7f9eae1f",
+      "documentState": "ACTIVE",
+      "code": "MOD-SE-03",
+      "lang": "en",
+      "name": {
+        "en": "Dependable Software Engineering"
+      },
+      "description": {
+        "en": "Dependable Software Engineering module focusing on dependability, resilience, fault tolerance."
+      },
+      "topicTags": [
+        "dependability",
+        "resilience",
+        "fault tolerance",
+        "software assurance"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentVolumeEstimate": 35,
+      "courseCodes": [
+        "COMP.SE.202",
+        "COMP.SE.204",
+        "COMP.SE.205"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-56044514-4a54-448f-b9ca-dfc1dd9e1b37"
+      ]
+    },
+    {
+      "id": "otm-952be795-f772-4a64-9eca-9d0428e28c29",
+      "groupId": "otm-5882b515-6d5c-4e0e-9227-93734253ba00",
+      "documentState": "ACTIVE",
+      "code": "MOD-EMB-03",
+      "lang": "en",
+      "name": {
+        "en": "Safety-Critical Embedded Software"
+      },
+      "description": {
+        "en": "Safety-Critical Embedded Software module focusing on safety-critical software, embedded verification, standards compliance."
+      },
+      "topicTags": [
+        "safety-critical software",
+        "embedded verification",
+        "standards compliance",
+        "certification"
+      ],
+      "degreeProgrammes": [
+        "Embedded Systems"
+      ],
+      "annualStudentVolumeEstimate": 35,
+      "courseCodes": [
+        "COMP.EMB.203",
+        "COMP.SAFE.303",
+        "COMP.SAFE.304"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-504a7a45-e2e9-42ad-81e8-65fde784846e"
+      ]
+    },
+    {
+      "id": "otm-e5679474-6360-4af8-aae2-1cf22bf4b4b2",
+      "groupId": "otm-8245f25d-b915-45b1-b653-58d566a5f07b",
+      "documentState": "ACTIVE",
+      "code": "MOD-AUTO-01",
+      "lang": "en",
+      "name": {
+        "en": "Automation and Control Systems"
+      },
+      "description": {
+        "en": "Automation and Control Systems module focusing on automation, control systems, industrial control."
+      },
+      "topicTags": [
+        "automation",
+        "control systems",
+        "industrial control",
+        "PLC"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentVolumeEstimate": 35,
+      "courseCodes": [
+        "AUTO.CTL.101",
+        "AUTO.CTL.102"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    },
+    {
+      "id": "otm-0a99a8ea-65e1-404a-b645-ce4d3a312065",
+      "groupId": "otm-c832a13a-c79f-4f12-8125-5d9ac919fe82",
+      "documentState": "ACTIVE",
+      "code": "MOD-DATA-01",
+      "lang": "en",
+      "name": {
+        "en": "Data Platforms for Industry"
+      },
+      "description": {
+        "en": "Data Platforms for Industry module focusing on data engineering, ETL, data pipelines."
+      },
+      "topicTags": [
+        "data engineering",
+        "ETL",
+        "data pipelines",
+        "industrial data platforms"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentVolumeEstimate": 45,
+      "courseCodes": [
+        "DATA.ENG.101",
+        "DATA.ENG.102",
+        "DATA.ENG.201"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-6914a265-8188-4320-9527-b9388e7af5cf"
+      ]
+    },
+    {
+      "id": "otm-932f9f74-5b17-47e4-8200-f4acb4c0b8a9",
+      "groupId": "otm-7ea772e6-c6bd-44ac-b887-ec217163efea",
+      "documentState": "ACTIVE",
+      "code": "MOD-CON-03",
+      "lang": "en",
+      "name": {
+        "en": "Real Estate and Asset Lifecycle Data"
+      },
+      "description": {
+        "en": "Real Estate and Asset Lifecycle Data module focusing on real estate, asset lifecycle, maintenance data."
+      },
+      "topicTags": [
+        "real estate",
+        "asset lifecycle",
+        "maintenance data",
+        "facility management"
+      ],
+      "degreeProgrammes": [
+        "Construction Technology"
+      ],
+      "annualStudentVolumeEstimate": 45,
+      "courseCodes": [
+        "MEP.201",
+        "REAL.101",
+        "REAL.201"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-79db38e2-7624-4308-a71e-166d142e5a5a"
+      ]
+    },
+    {
+      "id": "otm-9d93851d-ecda-4b54-9863-8a56bcd14f8c",
+      "groupId": "otm-7e0b19fe-bc35-4781-9efe-4402399ad18c",
+      "documentState": "ACTIVE",
+      "code": "MOD-OR-03",
+      "lang": "en",
+      "name": {
+        "en": "Logistics and Supply Chain Analytics"
+      },
+      "description": {
+        "en": "Logistics and Supply Chain Analytics module focusing on supply chain, logistics, network optimization."
+      },
+      "topicTags": [
+        "supply chain",
+        "logistics",
+        "network optimization",
+        "operations planning"
+      ],
+      "degreeProgrammes": [
+        "Industrial Engineering and Management"
+      ],
+      "annualStudentVolumeEstimate": 75,
+      "courseCodes": [
+        "IEM.OR.301",
+        "IEM.OR.302"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-354c60e1-7bc4-4712-90d5-3877edc265ff"
+      ]
+    },
+    {
+      "id": "otm-7a3dfd55-6d39-43b6-90a8-4e1d5d9951c0",
+      "groupId": "otm-3557c705-5cc3-496a-a3cb-a07f97c0be5d",
+      "documentState": "ACTIVE",
+      "code": "MOD-AI-03",
+      "lang": "en",
+      "name": {
+        "en": "Multi-Agent and Decision Systems"
+      },
+      "description": {
+        "en": "Multi-Agent and Decision Systems module focusing on multi-agent systems, coordination, planning."
+      },
+      "topicTags": [
+        "multi-agent systems",
+        "coordination",
+        "planning",
+        "orchestration"
+      ],
+      "degreeProgrammes": [
+        "Data Engineering"
+      ],
+      "annualStudentVolumeEstimate": 75,
+      "courseCodes": [
+        "DATA.AI.103",
+        "DATA.AI.204"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-e3c4146b-6838-4f59-ac79-82bbde144665"
+      ]
+    },
+    {
+      "id": "otm-07e63bde-b338-492d-baa8-ecd4c4507b34",
+      "groupId": "otm-36fc1711-32d6-4af2-9acc-36cf432597d6",
+      "documentState": "ACTIVE",
+      "code": "MOD-SE-04",
+      "lang": "en",
+      "name": {
+        "en": "Software Architecture and Platforms"
+      },
+      "description": {
+        "en": "Software Architecture and Platforms module focusing on software architecture, cloud platforms, DevOps."
+      },
+      "topicTags": [
+        "software architecture",
+        "cloud platforms",
+        "DevOps",
+        "scalable systems"
+      ],
+      "degreeProgrammes": [
+        "Software Engineering"
+      ],
+      "annualStudentVolumeEstimate": 35,
+      "courseCodes": [
+        "COMP.SE.301",
+        "COMP.SE.302",
+        "COMP.SE.303"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9ed9a4b1-7d69-4127-9d31-95b2790e4e4a"
+      ]
+    },
+    {
+      "id": "otm-395d4e20-40f3-4907-bbca-e25cb94668f2",
+      "groupId": "otm-2bcc6dc8-4937-44d4-a302-cf49a521781d",
+      "documentState": "ACTIVE",
+      "code": "MOD-I40-03",
+      "lang": "en",
+      "name": {
+        "en": "Digital Manufacturing and Robotics"
+      },
+      "description": {
+        "en": "Digital Manufacturing and Robotics module focusing on robotics, digital manufacturing, machine vision."
+      },
+      "topicTags": [
+        "robotics",
+        "digital manufacturing",
+        "machine vision",
+        "production systems"
+      ],
+      "degreeProgrammes": [
+        "Automation Engineering"
+      ],
+      "annualStudentVolumeEstimate": 75,
+      "courseCodes": [
+        "AUTO.ROB.201",
+        "AUTO.ROB.202"
+      ],
+      "organisations": [
+        "Tampere University"
+      ],
+      "responsibilityInfos": [
+        "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea"
+      ]
+    }
+  ],
+  "staff": [
+    {
+      "id": "otm-9ed9a4b1-7d69-4127-9d31-95b2790e4e4a",
+      "groupId": "otm-b4afd369-a803-49b6-a1f3-ab338009b94e",
+      "documentState": "ACTIVE",
+      "name": "Aino Lehtinen",
+      "title": "Professor of Software Engineering",
+      "email": "aino.lehtinen@tuni.fi",
+      "researchAreas": [
+        "software engineering",
+        "requirements engineering",
+        "software architecture"
+      ],
+      "keywords": [
+        "software engineering",
+        "requirements engineering",
+        "software architecture"
+      ],
+      "relatedModuleCodes": [
+        "MOD-SE-01",
+        "MOD-SE-04"
+      ],
+      "relatedCourseCodes": [
+        "COMP.SE.101",
+        "COMP.SE.102",
+        "COMP.SE.103",
+        "COMP.SE.301",
+        "COMP.SE.302",
+        "COMP.SE.303"
+      ]
+    },
+    {
+      "id": "otm-56044514-4a54-448f-b9ca-dfc1dd9e1b37",
+      "groupId": "otm-ef7aa531-8c9e-4983-8b5f-42e8f9404772",
+      "documentState": "ACTIVE",
+      "name": "Mikael Saarinen",
+      "title": "University Lecturer in Software Testing",
+      "email": "mikael.saarinen@tuni.fi",
+      "researchAreas": [
+        "software testing",
+        "verification",
+        "validation",
+        "quality assurance"
+      ],
+      "keywords": [
+        "software testing",
+        "verification",
+        "validation",
+        "quality assurance"
+      ],
+      "relatedModuleCodes": [
+        "MOD-SE-02",
+        "MOD-SE-03"
+      ],
+      "relatedCourseCodes": [
+        "COMP.SE.201",
+        "COMP.SE.202",
+        "COMP.SE.203",
+        "COMP.SE.204",
+        "COMP.SE.205"
+      ]
+    },
+    {
+      "id": "otm-9272445f-beb8-4a65-9eec-cf6b398983c6",
+      "groupId": "otm-570bfcc6-d3d5-4325-8ebd-143217080893",
+      "documentState": "ACTIVE",
+      "name": "Joonas Hietala",
+      "title": "Professor of Embedded Systems",
+      "email": "joonas.hietala@tuni.fi",
+      "researchAreas": [
+        "embedded systems",
+        "firmware",
+        "microcontrollers"
+      ],
+      "keywords": [
+        "embedded systems",
+        "firmware",
+        "microcontrollers"
+      ],
+      "relatedModuleCodes": [
+        "MOD-EMB-01"
+      ],
+      "relatedCourseCodes": [
+        "COMP.EMB.101",
+        "COMP.EMB.102",
+        "COMP.EMB.103"
+      ]
+    },
+    {
+      "id": "otm-f6e17beb-94e9-404d-b4ee-5b3560085343",
+      "groupId": "otm-56ea2b38-38c6-427b-967b-ce088f52b38b",
+      "documentState": "ACTIVE",
+      "name": "Elina Koskela",
+      "title": "Associate Professor of Real-Time Systems",
+      "email": "elina.koskela@tuni.fi",
+      "researchAreas": [
+        "real-time systems",
+        "timing analysis",
+        "deterministic systems"
+      ],
+      "keywords": [
+        "real-time systems",
+        "timing analysis",
+        "deterministic systems"
+      ],
+      "relatedModuleCodes": [
+        "MOD-EMB-02"
+      ],
+      "relatedCourseCodes": [
+        "COMP.EMB.201",
+        "COMP.EMB.202",
+        "COMP.EMB.203"
+      ]
+    },
+    {
+      "id": "otm-504a7a45-e2e9-42ad-81e8-65fde784846e",
+      "groupId": "otm-de7d4700-461d-47bc-8233-c3b2ff9ba528",
+      "documentState": "ACTIVE",
+      "name": "Petri Laaksonen",
+      "title": "Professor of Functional Safety",
+      "email": "petri.laaksonen@tuni.fi",
+      "researchAreas": [
+        "functional safety",
+        "IEC 61508",
+        "hazard analysis",
+        "safety-critical systems"
+      ],
+      "keywords": [
+        "functional safety",
+        "IEC 61508",
+        "hazard analysis",
+        "safety-critical systems"
+      ],
+      "relatedModuleCodes": [
+        "MOD-SAFE-01",
+        "MOD-EMB-03"
+      ],
+      "relatedCourseCodes": [
+        "COMP.EMB.203",
+        "COMP.SAFE.301",
+        "COMP.SAFE.302",
+        "COMP.SAFE.303",
+        "COMP.SAFE.304"
+      ]
+    },
+    {
+      "id": "otm-9adace9a-4c0d-4bcd-8ebb-db4c16f12dea",
+      "groupId": "otm-fe35ee11-d275-4b89-868e-77f734408346",
+      "documentState": "ACTIVE",
+      "name": "Tuomas Niemi",
+      "title": "Professor of Industrial Automation",
+      "email": "tuomas.niemi@tuni.fi",
+      "researchAreas": [
+        "Industry 4.0",
+        "industrial IoT",
+        "cyber-physical systems",
+        "automation"
+      ],
+      "keywords": [
+        "Industry 4.0",
+        "industrial IoT",
+        "cyber-physical systems",
+        "automation"
+      ],
+      "relatedModuleCodes": [
+        "MOD-I40-01",
+        "MOD-AUTO-01",
+        "MOD-I40-03"
+      ],
+      "relatedCourseCodes": [
+        "COMP.SE.303",
+        "AUTO.I40.101",
+        "AUTO.I40.102",
+        "AUTO.I40.103",
+        "AUTO.CTL.101",
+        "AUTO.CTL.102",
+        "AUTO.ROB.201",
+        "AUTO.ROB.202"
+      ]
+    },
+    {
+      "id": "otm-6914a265-8188-4320-9527-b9388e7af5cf",
+      "groupId": "otm-ca38e210-3b1f-4717-a344-3ab06cc5f678",
+      "documentState": "ACTIVE",
+      "name": "Sari Vainio",
+      "title": "University Lecturer in Industrial Data Analytics",
+      "email": "sari.vainio@tuni.fi",
+      "researchAreas": [
+        "industrial analytics",
+        "predictive maintenance",
+        "sensor data"
+      ],
+      "keywords": [
+        "industrial analytics",
+        "predictive maintenance",
+        "sensor data"
+      ],
+      "relatedModuleCodes": [
+        "MOD-I40-02",
+        "MOD-DATA-01"
+      ],
+      "relatedCourseCodes": [
+        "AUTO.I40.201",
+        "AUTO.I40.202",
+        "AUTO.I40.203",
+        "DATA.ENG.101",
+        "DATA.ENG.102",
+        "DATA.ENG.201"
+      ]
+    },
+    {
+      "id": "otm-354c60e1-7bc4-4712-90d5-3877edc265ff",
+      "groupId": "otm-b6c532dd-155b-41ab-8579-477fb5330500",
+      "documentState": "ACTIVE",
+      "name": "Olli Kettunen",
+      "title": "Professor of Operations Research",
+      "email": "olli.kettunen@tuni.fi",
+      "researchAreas": [
+        "operations research",
+        "optimization",
+        "decision analysis",
+        "simulation"
+      ],
+      "keywords": [
+        "operations research",
+        "optimization",
+        "decision analysis",
+        "simulation"
+      ],
+      "relatedModuleCodes": [
+        "MOD-OR-01",
+        "MOD-OR-02",
+        "MOD-OR-03"
+      ],
+      "relatedCourseCodes": [
+        "IEM.OR.101",
+        "IEM.OR.102",
+        "IEM.OR.201",
+        "IEM.OR.202",
+        "IEM.OR.203",
+        "IEM.OR.301",
+        "IEM.OR.302",
+        "IEM.OR.303",
+        "PROJ.401",
+        "PROJ.402",
+        "PROJ.403"
+      ]
+    },
+    {
+      "id": "otm-e3c4146b-6838-4f59-ac79-82bbde144665",
+      "groupId": "otm-7728c83f-ba43-4768-a649-bb828ceed360",
+      "documentState": "ACTIVE",
+      "name": "Liisa Mäkinen",
+      "title": "Associate Professor of Intelligent Agents",
+      "email": "liisa.makinen@tuni.fi",
+      "researchAreas": [
+        "AI systems",
+        "multi-agent systems",
+        "decision support"
+      ],
+      "keywords": [
+        "AI systems",
+        "multi-agent systems",
+        "decision support"
+      ],
+      "relatedModuleCodes": [
+        "MOD-AI-01",
+        "MOD-AI-03"
+      ],
+      "relatedCourseCodes": [
+        "COMP.SE.304",
+        "IEM.OR.303",
+        "DATA.AI.101",
+        "DATA.AI.102",
+        "DATA.AI.103",
+        "DATA.AI.204",
+        "PROJ.403"
+      ]
+    },
+    {
+      "id": "otm-948d5a76-7f55-4a51-859e-fbaec7ecaeb2",
+      "groupId": "otm-b8e73255-0720-47ab-a794-dbb327993a16",
+      "documentState": "ACTIVE",
+      "name": "Henri Salminen",
+      "title": "University Lecturer in Information Retrieval",
+      "email": "henri.salminen@tuni.fi",
+      "researchAreas": [
+        "information retrieval",
+        "RAG",
+        "semantic search",
+        "retrieval evaluation"
+      ],
+      "keywords": [
+        "information retrieval",
+        "RAG",
+        "semantic search",
+        "retrieval evaluation"
+      ],
+      "relatedModuleCodes": [
+        "MOD-AI-02"
+      ],
+      "relatedCourseCodes": [
+        "DATA.AI.201",
+        "DATA.AI.202",
+        "DATA.AI.203"
+      ]
+    },
+    {
+      "id": "otm-d391aa23-da59-40de-b98f-901457b87115",
+      "groupId": "otm-492986ed-d448-499e-8670-b71060886ebe",
+      "documentState": "ACTIVE",
+      "name": "Noora Järvinen",
+      "title": "Professor of Construction Informatics",
+      "email": "noora.jarvinen@tuni.fi",
+      "researchAreas": [
+        "construction informatics",
+        "BIM",
+        "digital built environment",
+        "project data"
+      ],
+      "keywords": [
+        "construction informatics",
+        "BIM",
+        "digital built environment",
+        "project data"
+      ],
+      "relatedModuleCodes": [
+        "MOD-CON-01",
+        "MOD-CON-02"
+      ],
+      "relatedCourseCodes": [
+        "CONST.101",
+        "CONST.102",
+        "CONST.201",
+        "MEP.101",
+        "MEP.201"
+      ]
+    },
+    {
+      "id": "otm-79db38e2-7624-4308-a71e-166d142e5a5a",
+      "groupId": "otm-de5a94d0-9a1f-4b2e-bda3-53cf6e7d08b8",
+      "documentState": "ACTIVE",
+      "name": "Antti Rantala",
+      "title": "Professor of Real Estate Data Systems",
+      "email": "antti.rantala@tuni.fi",
+      "researchAreas": [
+        "real estate",
+        "asset lifecycle",
+        "facility data",
+        "maintenance analytics"
+      ],
+      "keywords": [
+        "real estate",
+        "asset lifecycle",
+        "facility data",
+        "maintenance analytics"
+      ],
+      "relatedModuleCodes": [
+        "MOD-CON-03"
+      ],
+      "relatedCourseCodes": [
+        "MEP.201",
+        "REAL.101",
+        "REAL.201"
+      ]
+    }
+  ]
+}
