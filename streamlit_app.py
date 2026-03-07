@@ -30,7 +30,7 @@ def call_llm(prompt: str):
 
 @st.cache_resource
 def load_index():
-    return build_index("data/kori_synthetic_60_25_12_v2.json")
+    return build_index("kori_synthetic_data.json")
 
 
 st.title("Tampere Curriculum AI")
