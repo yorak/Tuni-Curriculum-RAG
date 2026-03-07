@@ -252,3 +252,22 @@ The dataset is synthetic, though schema-aligned with Kori.
 Student counts are estimates used for demonstration purposes.
 
 Some API endpoints could not be accessed due to authentication constraints.
+
+
+# Future Improvements
+
+Live Kori API ingestion and caching
+
+Hybrid retrieval (vector + keyword/BM25)
+
+More rigorous retrieval evaluation
+
+Real enrolment data instead of synthetic student estimates
+
+Richer staff and organization metadata
+
+Better UI with evidence highlighting and citations
+
+Persistent vector database and improved deployment
+
+Enrichment with thesis topics and programme information
