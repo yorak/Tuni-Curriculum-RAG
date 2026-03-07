@@ -126,7 +126,7 @@ Course Name: Functional Safety and IEC 61508
 Credits: 5
 Keywords: functional safety, safety-critical systems
 
-### Vector Index
+## Vector Index
 
 Documents are embedded and stored in a Qdrant vector database.
 
@@ -144,7 +144,7 @@ scalable vector retrieval
 
 lightweight local deployment
 
-### Retrieval Layer
+## Retrieval Layer
 
 Semantic retrieval is implemented using LlamaIndex.
 
@@ -152,7 +152,7 @@ rag/retriever.py
 
 The retriever finds the most relevant curriculum documents based on the user query.
 
-### Query Expansion
+## Query Expansion
 
 To improve retrieval quality, the system expands the user query using an LLM.
 
@@ -173,7 +173,7 @@ software quality assurance for embedded systems
 
 This improves recall by retrieving relevant curriculum content expressed using different terminology.
 
-### RAG Pipeline
+## RAG Pipeline
 
 The complete RAG orchestration is implemented in:
 
@@ -199,7 +199,7 @@ avoid hallucinating courses or staff
 
 reference specific curriculum entities when possible
 
-### LLM Integration
+## LLM Integration
 
 The system uses GPT-Lab hosted Ollama models.
 
