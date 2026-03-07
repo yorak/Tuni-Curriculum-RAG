@@ -30,7 +30,7 @@ def main():
 
     print("Loading index...")
 
-    index = build_index("data/kori_synthetic_60_25_12_v2.json")
+    index = build_index("kori_synthetic_data.json")
 
     print("Index ready")
 
