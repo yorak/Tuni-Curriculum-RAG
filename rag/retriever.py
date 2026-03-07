@@ -12,4 +12,4 @@ def retrieve_naive(retriever, query: str):
     Perform naive retrieval using the original query.
     """
     nodes = retriever.retrieve(query)
-    return node
+    return nodes
