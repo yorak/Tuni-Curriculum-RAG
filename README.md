@@ -75,7 +75,7 @@ safety-critical software testing modules
 
 The dataset is located at:
 
-data/kori_synthetic_60_25_12_v2.json
+data/kori_synthetic_data.json
 
 
 
