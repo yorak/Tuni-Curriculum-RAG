@@ -50,6 +50,36 @@ Base URL: `https://sisu.tuni.fi/kori`
 
 Most GET endpoints are **publicly accessible** (no auth). Tested anonymously.
 
+### OpenAPI specs
+
+| Spec | Path | Notes |
+|------|------|-------|
+| Default | `/kori/v3/api-docs/default` | 102 paths — mostly `/import` + `/export` (SIS integration surface) |
+| Internal | `/kori/v3/api-docs/internal` | 370 paths — what the Sisu UI itself uses; look here first |
+
+Swagger UI: `https://sisu.tuni.fi/kori/swagger-ui/index.html`
+
+### Worked example — COMP.CS.530 (Fine-tuning LLMs)
+
+A known-good course to use as a test fixture:
+
+- **Course unit id:** `otm-68424c80-193a-4f3e-a347-9c51809ef25e`
+- **Organisation:** `tuni-org-1301000005` (Computing Sciences)
+- **Credits:** 5–10 cr
+- **Curriculum periods:** `uta-lvv-2024`, `uta-lvv-2025`, `uta-lvv-2026`
+- **Spring 2026 realisations:**
+  - Lectures `otm-1bd2266c-…_2025` — 7 Jan – 26 Feb 2026
+  - Capstone `otm-9e9b00a6-…_2025` — 18 Feb – 1 Apr 2026
+- **Responsible teachers:** Pekka Abrahamsson (Professor), Vaishnavi Bankhele, Jussi Rasku (Postdoctoral Research Fellow)
+
+Quick fetch to inspect the raw API response:
+
+```bash
+curl -s "https://sisu.tuni.fi/kori/api/course-units/v1/otm-68424c80-193a-4f3e-a347-9c51809ef25e" | python3 -m json.tool | head -80
+```
+
+This is the fastest way to check field names if the fetcher produces unexpected output.
+
 ### IT/ITC course code prefixes (TUNI)
 
 | Prefix | Faculty area |
@@ -147,3 +177,81 @@ GET /api/modules/v1/stream
 3. Run `python fetch_kori_data.py --limit 10` to verify the fetcher works.
 4. Run `python fetch_kori_data.py` for the full dataset.
 5. Run `python main.py` or `streamlit run streamlit_app.py` to test with real data.
+
+---
+
+## Testing, triage & fix guide
+
+The fetcher was written but **never run against the real API** (network was blocked in
+the authoring session). Treat the first run as exploratory — expect to find and fix at
+least one or two issues before the data is clean.
+
+### Step 1 — smoke-test the fetcher
+
+```bash
+python fetch_kori_data.py --prefixes COMP --limit 5 --output kori_test.json
+```
+
+Expected output:
+- `[1/5]` org names: should find > 0 organisations
+- `[2/5]` search: should find results for `COMP.*` — if 0, see triage below
+- `[3/5]` course units: each line shows a course code like `COMP.CS.530`
+- `[4/5]` persons: lines like `Pekka Abrahamsson (tuni-person-pabraha)`
+- `[5/5]` modules: likely 0 or skipped — that's fine
+
+### Step 2 — validate the JSON
+
+```python
+import json
+data = json.load(open("kori_test.json"))
+
+# Check counts
+print(len(data["courses"]), "courses")
+print(len(data["staff"]), "staff")
+
+# Check that descriptions actually have text (not empty dicts)
+empty_desc = [c["code"] for c in data["courses"] if not c.get("description")]
+print("Empty descriptions:", empty_desc)
+
+# Check learning outcomes
+empty_out = [c["code"] for c in data["courses"] if not c.get("learningOutcomes")]
+print("Empty outcomes:", empty_out)
+
+# Check a course in full
+print(json.dumps(data["courses"][0], indent=2, ensure_ascii=False))
+```
+
+**Good:** descriptions and outcomes are multilang dicts with `en` or `fi` text.  
+**Bad:** empty dicts `{}` — see triage below.
+
+### Step 3 — end-to-end RAG test
+
+```bash
+GPTLAB_API_KEY=<your-key> python main.py
+# Enter: "What courses cover machine learning?"
+# Enter: "Who teaches software testing?"
+# Enter: "What are the learning outcomes of COMP.CS.530?"
+```
+
+A good answer cites course codes and names from the fetched data. If answers are vague
+or say "I don't know", check that retrieval is returning nodes (add a `print(nodes)`
+in `main.py` temporarily).
+
+### Triage: common failure modes
+
+| Symptom | Likely cause | Fix |
+|---------|-------------|-----|
+| Search returns 0 results for `COMP` | `codeQuery` param name changed | Check Swagger UI at `/kori/swagger-ui` and update param name in `_search_page()` |
+| Search response has unexpected shape | Response envelope differs from expected | Print raw response and update `.get("searchResults")` key in `_search_page()` |
+| `description` / `learningOutcomes` always empty | Kori field names changed (`content`→`description`) | Fetch one course manually and inspect: `python -c "import requests,json; print(json.dumps(requests.get('https://sisu.tuni.fi/kori/api/course-units/v1/otm-68424c80-193a-4f3e-a347-9c51809ef25e').json(), indent=2))"` |
+| All person fetches return 404 | `otm-...` IDs not valid for `/persons/v1/` | Only `tuni-person-<username>` IDs work; filter in `_extract_person_ids()` to skip `otm-` prefixed IDs |
+| Credits come back as `{"min": 5, "max": 5}` for everything | `credits` null on course-unit (shouldn't happen, but if so) | Check raw response — credits should be on course unit, not realisation |
+| RAG answers are wrong / hallucinated | `content`/`outcomes` fields empty so index has no substance | Fix empty descriptions first; the RAG quality is entirely dependent on this |
+
+### Acceptance criteria — when is the data good enough?
+
+- [ ] > 80% of fetched courses have non-empty `description` (the `content` field)
+- [ ] > 50% of fetched courses have non-empty `learningOutcomes` (the `outcomes` field)
+- [ ] Staff records resolve for the majority of `tuni-person-*` IDs
+- [ ] RAG correctly answers "What does COMP.CS.530 cover?" with content from the
+      real course description (verifiable at `https://sisu.tuni.fi/kori/swagger-ui`)
