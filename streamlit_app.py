@@ -28,9 +28,24 @@ def call_llm(prompt: str):
     return r.json()["choices"][0]["message"]["content"]
 
 
+def _data_path() -> str:
+    import os
+    candidates = [
+        os.environ.get("KORI_DATA_FILE", ""),
+        "kori_real_data.json",
+        "kori_synthetic_data.json",
+    ]
+    for p in candidates:
+        if p and os.path.exists(p):
+            return p
+    raise FileNotFoundError("No curriculum data file found. Run fetch_kori_data.py first.")
+
+
 @st.cache_resource
 def load_index():
-    return build_index("kori_synthetic_data.json")
+    data_path = _data_path()
+    st.sidebar.caption(f"Data: `{data_path}`")
+    return build_index(data_path)
 
 
 st.title("Tampere Curriculum AI")

@@ -40,7 +40,7 @@ def build_documents(data):
         module_codes = c.get("moduleCodes", [])
         degree_programmes = c.get("degreeProgrammes", [])
 
-        student_estimate = c.get("annualStudentCountEstimate", "unknown")
+        student_estimate = c.get("annualStudentCountEstimate") or "unknown"
 
         text = f"""
 ENTITY TYPE: COURSE
@@ -102,7 +102,7 @@ Responsible Staff IDs:
         topic_tags = m.get("topicTags", [])
         degree_programmes = m.get("degreeProgrammes", [])
 
-        student_volume = m.get("annualStudentVolumeEstimate", "unknown")
+        student_volume = m.get("annualStudentVolumeEstimate") or "unknown"
 
         text = f"""
 ENTITY TYPE: MODULE

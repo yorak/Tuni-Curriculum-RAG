@@ -26,11 +26,26 @@ def call_llm(prompt: str):
     return r.json()["choices"][0]["message"]["content"]
 
 
+def _data_path() -> str:
+    import os
+    # Prefer real data if it has been fetched; fall back to synthetic dataset.
+    candidates = [
+        os.environ.get("KORI_DATA_FILE", ""),
+        "kori_real_data.json",
+        "kori_synthetic_data.json",
+    ]
+    for p in candidates:
+        if p and os.path.exists(p):
+            return p
+    raise FileNotFoundError("No curriculum data file found. Run fetch_kori_data.py first.")
+
+
 def main():
 
-    print("Loading index...")
+    data_path = _data_path()
+    print(f"Loading index from {data_path} …")
 
-    index = build_index("kori_synthetic_data.json")
+    index = build_index(data_path)
 
     print("Index ready")
 
